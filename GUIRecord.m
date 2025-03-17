@@ -1,3 +1,23 @@
+% GUIRecord.m
+% 
+% Author: Yu'an Li
+% Date: 2025-03-17
+% 
+% Description:
+% This MATLAB class provides a GUI-based recording system for capturing and 
+% saving video using a Basler camera. It includes functionalities such as 
+% previewing, recording, capturing images, and controlling various camera settings. 
+% 
+% Dependencies:
+% - Requires FfmpegVideoWriter for video encoding, which is sourced from GitHub.
+% 
+% License:
+% This project is licensed under the MIT License - see the LICENSE file for details.
+%
+% Usage:
+% This class can be used in MATLAB for real-time video capture and recording. 
+%
+
 classdef GUIRecord < handle
     properties
         value = [];
